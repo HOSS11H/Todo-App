@@ -101,8 +101,6 @@ const Todos = props =>{
         <div>
             { loadingTodos ? <CircularProgress color='primary' /> : null }
             { loadedTodos }
-            <Todo key='jf73njg' id='jf73njg' name= 'testing1' importance='necessary' completed removeTodoHandler={ removeTodo }  />
-            <Todo key='jf73hfhjg' id='jf73njg' name= 'testing2' importance='necessary' completed={false} removeTodoHandler={ removeTodo }  />
             <Dialog
                 open={openDeleteConfirm}
                 TransitionComponent={Transition}
